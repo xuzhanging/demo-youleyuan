@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+body {
+  background-color: #F0F0F0;
+}
+.main {
+  padding-bottom: 1.33333333rem;
+}
+.main .banner ul li a {
+  display: inline-block;
+  width: 100%;
+  height: 4.26666667rem;
+  background-color: pink;
+  text-align: center;
+  line-height: 4.26666667rem;
+}
+.main .title {
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  padding-left: 0.4rem;
+}
+.main .title h4 {
+  font-size: 0.37333333rem;
+  color: #3c3c3c;
+}
+.main .item {
+  margin-bottom: 0.26666667rem;
+}
+.main .item .pic {
+  position: relative;
+  height: 4.26666667rem;
+}
+.main .item .pic a {
+  display: inline-block;
+  width: 100%;
+  height: 4.26666667rem;
+  background-color: skyblue;
+  text-align: center;
+  line-height: 4.26666667rem;
+}
+.main .item .pic i {
+  position: absolute;
+  right: 0.48rem;
+  top: 0.4rem;
+  font-size: 0.64rem;
+  color: #fff;
+}
+.main .item .pic .active {
+  position: absolute;
+  left: 0.4rem;
+  top: -0.10666667rem;
+  width: 1.81333333rem;
+  height: 0.77333333rem;
+  background-color: orange;
+  font-size: 0.32rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.77333333rem;
+}
+.main .item .text {
+  padding: 0.26666667rem 0.4rem;
+  background-color: #fff;
+}
+.main .item .text .top {
+  display: flex;
+  justify-content: space-between;
+}
+.main .item .text .top h5 {
+  width: 7.73333333rem;
+  font-size: 0.4rem;
+  color: #3c3c3c;
+  font-weight: 400;
+}
+.main .item .text .top p {
+  font-size: 0.4rem;
+  color: #fe6249;
+}
+.main .item .text .bottom {
+  margin-top: 0.26666667rem;
+  display: flex;
+}
+.main .item .text .bottom p {
+  margin-right: 0.4rem;
+  font-size: 0.29333333rem;
+  color: #B4B4B4;
+}
+.main .item .text .bottom p i {
+  font-size: 0.29333333rem;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1.33333333rem;
+  background-color: #FECA49;
+  text-align: center;
+}
+footer a {
+  font-size: 0.29333333rem;
+  color: #D78B09;
+}
+footer a .iconfont {
+  font-size: 0.64rem;
+}
+footer a.current {
+  color: #fff;
+}
